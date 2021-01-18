@@ -49,7 +49,8 @@ log "Start generating bromite-default"
 echo "::endgroup::"
 
 # All other lists can be listed here
-filtrite bromite-extended
+#filtrite bromite-extended
+filtrite bromite-finnish
 
 echo "::group::Cleanup"
 cleanup
